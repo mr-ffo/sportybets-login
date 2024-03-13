@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
+/* *{
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style: normal;
+    font-size: 15px;
+    
+  } */
+  
+body{
+    background-color: rgb(233,233,233);
+    width: 100%;
+    height: 80vh;
+}
+nav{
+    background-color:rgb(228,24,39) ;
+    max-width: 100% ;
+    max-height: 10rem;
+padding: 1rem 17rem;
+}
+nav img{
+    width: 11rem;
+}
+
+aside img{
+    width:100%;
+    
+
+}
+.form{
+width: 30rem;
+height: 30rem;
+background-color: white;
+position: relative;
+padding: 6rem ;
+}
+/* section{
+    display: flex;
+    align-items: center;
+     gap: 2rem;
+justify-content: center;
+     padding: 2em;
+     }  */
+
+
+.register-text{
+    display: flex;
+    justify-content: space-around;
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+    font-style: normal;
+    font-size: 23px;
+    margin-top: -40px;
+    gap:8rem;
+}
+.register-text :first-child{
+    color:  rgb(13,151,55);
+}
+
+.underline{
+    width: 100%;
+    height: 1.3px;
+    background-color: rgb(234,236,239);
+    position: absolute;
+    top: 7rem;
+}
+.underline-reg{
+    width: 40%;
+    height: 3.3px;
+    border-radius: 2rem;
+    background-color: rgb(51,234,106);
+    position: absolute;
+    top: 5.3rem;
+    left: 3rem;
+    transition: all 2s ;
+
+}
+
+     .input-fields {
+    margin-top: 4.5rem;
+    
+    
+    
+     }
+     .input-fields input{
+        width: 18rem;
+        height: 60px;
+        outline: none;
+        border: 0.5px solid rgb(180,180,180);
+        background-color:rgb(250,250,250) ;
+        padding-left: 1.5rem;
+    }
+    
+    .input-fields input:focus{
+         border: 1px solid rgb(81,168,108) ;
+
+     }
+  #number::placeholder{
+font-size: 14px;
+color: rgb(156,168,199);
+
+  }
+
+
+  #password::placeholder{
+    font-size: 14px;
+    color: rgb(156,168,199);
+  }
+
+  button.new-acct{
+width: 100%;
+height: fit-content;
+padding: 1rem 0rem 0.7rem 0rem;
+color:rgb(249,255,255) ;
+background-color: rgb(220,222,229);
+outline: none;
+border: none;
+font-family: "Poppins", sans-serif;
+font-weight:500;
+font-style:normal;
+font-size: 15px;
+margin-top: 2rem;
+margin-left: 0rem;
+border-radius: 0.2rem;
+
+  }
+
+  .termss{
+    color: rgb(13,151,55);
+    font-family: "Poppins", sans-serif;
+font-weight:500;
+font-style:normal;
+font-size: 14px;
+}
+.terms{
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style:normal;
+    font-size: 13px;
+    margin-top: 1.7rem;
+      
+  }
+.terms-mobile{
+  display: none;
+}
+  .form-two{
+    width: 30rem;
+    height: 30rem;
+    background-color: white;
+    position: relative;
+    padding: 6rem ;
+    display: none;
+    }
+    .check-sections-mobile{
+      display: none;
+    }
+   .for-mobile{
+    display: none;
+   }
+    section{
+        display: flex;
+        align-items: center;
+         gap: 2rem;
+    justify-content: center;
+         padding: 2em;
+         } 
+    
+    
+    .logins-text{
+        display: flex;
+        justify-content: space-around;
+        font-family: "Poppins", sans-serif;
+        font-weight:400;
+        font-style: normal;
+        font-size: 23px;
+        margin-top: -40px;
+        gap:8rem;
+    }
+    .logins-text .lg{
+        color:  rgb(34, 235, 95);
+      }
+      .lg{
+        cursor: pointer;
+    }
+    .reg{
+      cursor: pointer;
+    }
+    .underline{
+        width: 100%;
+        height: 1.3px;
+        background-color: rgb(234,236,239);
+        position: absolute;
+        top: 7rem;
+    }
+    .underline-logins{
+        width: 40%;
+        height: 3.3px;
+        border-radius: 2rem;
+        background-color: rgb(118, 255, 159);
+        position: absolute;
+        top: 5.2rem;
+        left: 16rem;
+        
+        
+    }
+    
+         .input-fieldss {
+        margin-top: 4.5rem;
+        
+        
+        
+         }
+         .input-fieldss input{
+            width: 18rem;
+            height: 60px;
+            outline: none;
+            border: 0.5px solid rgb(180,180,180);
+            background-color:rgb(250,250,250) ;
+            padding-left: 1.5rem;
+        }
+        
+        .input-fieldss input:focus{
+            border: 1px solid rgb(81,168,108) ;
+            
+        }
+      #number-two::placeholder{
+          font-size: 14px;
+    color: rgb(156,168,199);
+    
+}
+    
+    
+      #password-two::placeholder{
+        font-size: 14px;
+        color: rgb(156,168,199);
+      }
+    
+      .new-logins button{
+    width: 100%;
+    height: fit-content;
+    padding: 1rem 0rem 0.7rem 0rem;
+    color:rgb(249,255,255) ;
+    background-color: rgb(220,222,229);
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style:normal;
+    font-size: 15px;
+    margin-top: 2rem;
+    margin-left: 0rem;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    
+      }
+      button.new-acct-mobile{
+        display: none;
+      }
+      .termss{
+        color: rgb(13,151,55);
+        font-family: "Poppins", sans-serif;
+    font-weight:500;
+    font-style:normal;
+    font-size: 14px;
+    }
+    .terms{
+       font-family: "Poppins", sans-serif;
+        font-weight:500;
+        font-style:normal;
+        font-size: 11.2px;
+        margin-top: 1.7rem;
+          
+      }
+      #check {
+        width:12px;
+        
+      }
+    
+      .check-sections{
+margin-top: 1.2rem;
+font-size: 13.2px;
+font-family: "Poppins", sans-serif;
+font-weight:400;
+font-style:normal;
+color:  rgb(156,160,171);
+display: flex;
+justify-content: space-between;
+      } 
+
+      .check-sectionss{
+        font-size: 13.2px;
+font-family: "Poppins", sans-serif;
+font-weight:400;
+font-style:normal;
+color:  rgb(156,160,171);
+margin-top: 1rem;
+      }
+      .for a{
+        color: rgb(81,168,108);
+        
+      }
+
+      .footer-container{
+        width: 100%;
+        height: 30vh;
+        background-color:rgb(27,30,37) ;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-top: 1.4rem;
+         
+        gap: 2rem;
+        
+      }
+      .footer-container img{
+        width: 7rem;
+      }
+      .sportnig li img{
+        width: 18em;
+      }
+      .sportnig .lagos{
+        width: 3.6rem;
+        
+       
+      }
+      .sportking h3{
+        color:rgb(248,251,248) ;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight:600;
+        font-style:normal;
+        margin: 0.5rem;
+      }
+      .sportking li{
+        color: rgb(235, 233, 230) ;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight:300;
+        font-style:normal;
+      }
+
+      .play h3{
+        color:rgb(248,251,248) ;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight:600;
+        font-style:normal;
+        margin: 0.5rem;
+      }
+      .play ul a{
+        color: rgb(235, 233, 230) ;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight:300;
+        font-style:normal;
+
+      }
+      .fa-solid fa-greater-than{
+        color: rgb(248,251,248);
+        margin: 8rem;
+      }
+
+      .connect h3{
+        color:rgb(248,251,248) ;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight:600;
+        font-style:normal;
+        margin: 0.5rem;
+
+      }
+      .connect ul{
+        color: rgb(235, 233, 230) ;
+        font-size: 12px;
+        font-family: "Poppins", sans-serif;
+        font-weight:400;
+        
+        font-style:normal;
+      }
+      .social li i{
+        font-size: 23px;
+        margin-left: 10px;
+        margin-top: 10px;
+        gap: 1rem;
+      }
+
+
+
+
+
+
+
+      /* media query for mobile */
+
+
+
+
+
+      /* media query for mobile */
+
+
+
+
+
+
+
+      /* media query for mobile */
+      @media only screen and (max-width: 768px) {
+        nav{
+          display: none;
+        }
+        body{
+          background-color: rgb(24, 21, 21);
+         
+        }
+        aside img{
+          display: none;
+        }
+        .form{
+          width: 25rem;
+          height: 25rem;
+          background-color: rgb(24, 21, 21);
+          position: relative;
+  padding: 6rem 2rem ;
+          
+          }
+          .underline-reg{
+            width: 30%;
+            height: 3px;
+            border-radius: 0.4rem;
+            background-color: rgb(23, 255, 61);
+            position: absolute;
+            
+            left: 2.3rem;
+            
+            
+      }
+        .underline{
+          display: none;
+          
+        }
+        .register-text :first-child{
+          color:  rgb(14, 245, 83);
+        }
+        .register-text p{
+          color:  rgb(14, 245, 83);
+        }
+        .logins-text{
+          color:  rgb(14, 245, 83);
+}
+.underline-logins{
+  color:  rgb(14, 245, 83);
+}
+.loginReg{
+  color:  rgb(14, 245, 83);
+}
+.input-fields input{
+  width: 20rem;
+  height: 53px;
+  outline: none;
+  border: 0.5px solid rgb(180, 160, 160);
+  background-color:rgb(26, 20, 20) ;
+  padding-right: 0;
+  margin-right: 12rem;
+  color: rgb(247, 233, 233);
+}
+
+.input-fields input:focus{
+  border: 1px solid rgb(7, 179, 62) ;
+  border-bottom: 1px solid rgb(7, 179, 62) ;;
+  
+}
+#number::placeholder{
+font-size: 13px;
+color: rgb(230, 230, 230);
+
+
+}
+
+
+#password::placeholder{
+font-size: 13px;
+color: rgb(219, 221, 228);
+}
+.register-text{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  font-weight:400;
+  font-style: normal;
+  font-size: 23px;
+  margin-top: -40px;
+  gap:1rem;
+  padding-right: 4.9rem;
+}
+
+button.new-acct{
+  display: none;
+}
+button.new-acct-mobile{
+  width: 98%;
+  height: fit-content;
+  padding: 1rem 0rem 0.7rem 1rem;
+  color:rgb(249,255,255) ;
+  background-color: rgba(226, 230, 225, 0.377);
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight:500;
+  font-style:normal;
+  font-size: 14px;
+  margin-top: 2rem;
+  margin-left: 0rem;
+  border-radius: 0.2rem;
+  display: block;
+
+}
+.terms{
+  display: none;
+}
+
+.terms-mobile{
+  display: block;
+  color: rgb(204, 195, 177);
+  margin-top: 0.6rem;
+  
+  font-size: 16px;
+}
+
+/* logins mobile */
+.form-two{
+  width: 25rem;
+  height: 25rem;
+  background-color: rgb(24, 21, 21);
+  position: relative;
+  padding: 6rem 2rem ;
+}
+
+.underline-logins{
+  width: 30%;
+  height: 3px;
+  border-radius: 0.4rem;
+  background-color: rgb(23, 255, 61);
+  position: absolute;
+  top:rem;
+  left:12.4rem;
+  
+}
+.logins-text .lg{
+padding-right: 4rem;
+}
+.logins-text{
+  display: flex;
+  justify-content: space-around;
+  font-family: "Poppins", sans-serif;
+  font-weight:400;
+  font-style: normal;
+  font-size: 23px;
+  margin-top: -40px;
+  gap:2rem;
+}
+.input-fieldss{
+padding-right: 0rem;
+}
+.input-fieldss input{
+  width: 20rem;
+  height: 53px;
+  outline: none;
+  border: 0.5px solid rgb(83, 76, 76);
+  background-color:rgb(22, 19, 19) ;
+  padding-right: 0;
+  margin-right: 12rem;
+  color: rgb(224, 210, 210);
+}
+.input-fieldss input:focus{
+  border: 1px solid rgb(7, 179, 62) ;
+  border-bottom: 1px solid rgb(7, 179, 62) ;;
+  
+}
+#number-two::placeholder{
+font-size: 13px;
+color: rgb(230, 230, 230);
+
+
+}
+
+
+#password-two::placeholder{
+font-size: 13px;
+color: rgb(219, 221, 228);
+}
+
+.check-sectionss input{
+    display:none;
+ 
+}
+.check-sectionss label{
+  display:none;
+
+}
+.check-sections{
+  margin-top: 1.2rem;
+font-size: 13.2px;
+font-family: "Poppins", sans-serif;
+font-weight:400;
+font-style:normal;
+color:  rgb(156,160,171);
+display: flex;
+padding-right: 2rem;
+
+}
+.new-logins button{
+  width: 99%;
+  height: fit-content;
+  padding: 1rem 0rem 0.7rem 1rem;
+  color:rgb(249,255,255) ;
+  background-color: rgba(226, 230, 225, 0.377);
+  outline: none;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  font-weight:500;
+  font-style:normal;
+  font-size: 14px;
+  margin-top: 2rem;
+  margin-left: 0rem;
+  border-radius: 0.2rem;
+  display: block;
+
+}
+.check-sections-mobile{
+  display: block;
+}
+.footer-container {
+  display: none;
+}
+}
